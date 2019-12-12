@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/!.github.io/MHW-Wishlist/static/css/main.b9709a22.chunk.css",
-    "main.js": "/!.github.io/MHW-Wishlist/static/js/main.30b20746.chunk.js",
-    "main.js.map": "/!.github.io/MHW-Wishlist/static/js/main.30b20746.chunk.js.map",
+    "main.js": "/!.github.io/MHW-Wishlist/static/js/main.2d0adda6.chunk.js",
+    "main.js.map": "/!.github.io/MHW-Wishlist/static/js/main.2d0adda6.chunk.js.map",
     "runtime-main.js": "/!.github.io/MHW-Wishlist/static/js/runtime-main.f35c551d.js",
     "runtime-main.js.map": "/!.github.io/MHW-Wishlist/static/js/runtime-main.f35c551d.js.map",
     "static/js/2.93a96bab.chunk.js": "/!.github.io/MHW-Wishlist/static/js/2.93a96bab.chunk.js",
     "static/js/2.93a96bab.chunk.js.map": "/!.github.io/MHW-Wishlist/static/js/2.93a96bab.chunk.js.map",
     "index.html": "/!.github.io/MHW-Wishlist/index.html",
-    "precache-manifest.8496bac8bc342a20e195bc4e033b89dc.js": "/!.github.io/MHW-Wishlist/precache-manifest.8496bac8bc342a20e195bc4e033b89dc.js",
+    "precache-manifest.3482a4778bbd8518d92bc739d48b16b4.js": "/!.github.io/MHW-Wishlist/precache-manifest.3482a4778bbd8518d92bc739d48b16b4.js",
     "service-worker.js": "/!.github.io/MHW-Wishlist/service-worker.js",
     "static/css/main.b9709a22.chunk.css.map": "/!.github.io/MHW-Wishlist/static/css/main.b9709a22.chunk.css.map",
     "static/js/2.93a96bab.chunk.js.LICENSE": "/!.github.io/MHW-Wishlist/static/js/2.93a96bab.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f35c551d.js",
     "static/js/2.93a96bab.chunk.js",
     "static/css/main.b9709a22.chunk.css",
-    "static/js/main.30b20746.chunk.js"
+    "static/js/main.2d0adda6.chunk.js"
   ]
 }
