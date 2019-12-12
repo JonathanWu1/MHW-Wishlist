@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/!.github.io/MHW-Wishlist/static/css/main.b9709a22.chunk.css",
-    "main.js": "/!.github.io/MHW-Wishlist/static/js/main.2d0adda6.chunk.js",
-    "main.js.map": "/!.github.io/MHW-Wishlist/static/js/main.2d0adda6.chunk.js.map",
-    "runtime-main.js": "/!.github.io/MHW-Wishlist/static/js/runtime-main.f35c551d.js",
-    "runtime-main.js.map": "/!.github.io/MHW-Wishlist/static/js/runtime-main.f35c551d.js.map",
-    "static/js/2.93a96bab.chunk.js": "/!.github.io/MHW-Wishlist/static/js/2.93a96bab.chunk.js",
-    "static/js/2.93a96bab.chunk.js.map": "/!.github.io/MHW-Wishlist/static/js/2.93a96bab.chunk.js.map",
-    "index.html": "/!.github.io/MHW-Wishlist/index.html",
-    "precache-manifest.3482a4778bbd8518d92bc739d48b16b4.js": "/!.github.io/MHW-Wishlist/precache-manifest.3482a4778bbd8518d92bc739d48b16b4.js",
-    "service-worker.js": "/!.github.io/MHW-Wishlist/service-worker.js",
-    "static/css/main.b9709a22.chunk.css.map": "/!.github.io/MHW-Wishlist/static/css/main.b9709a22.chunk.css.map",
-    "static/js/2.93a96bab.chunk.js.LICENSE": "/!.github.io/MHW-Wishlist/static/js/2.93a96bab.chunk.js.LICENSE"
+    "main.css": "/MHW-Wishlist/static/css/main.b9709a22.chunk.css",
+    "main.js": "/MHW-Wishlist/static/js/main.16bb5896.chunk.js",
+    "main.js.map": "/MHW-Wishlist/static/js/main.16bb5896.chunk.js.map",
+    "runtime-main.js": "/MHW-Wishlist/static/js/runtime-main.8afb9fce.js",
+    "runtime-main.js.map": "/MHW-Wishlist/static/js/runtime-main.8afb9fce.js.map",
+    "static/js/2.93a96bab.chunk.js": "/MHW-Wishlist/static/js/2.93a96bab.chunk.js",
+    "static/js/2.93a96bab.chunk.js.map": "/MHW-Wishlist/static/js/2.93a96bab.chunk.js.map",
+    "index.html": "/MHW-Wishlist/index.html",
+    "precache-manifest.19ee827995efe50ae58509eebf2d9721.js": "/MHW-Wishlist/precache-manifest.19ee827995efe50ae58509eebf2d9721.js",
+    "service-worker.js": "/MHW-Wishlist/service-worker.js",
+    "static/css/main.b9709a22.chunk.css.map": "/MHW-Wishlist/static/css/main.b9709a22.chunk.css.map",
+    "static/js/2.93a96bab.chunk.js.LICENSE": "/MHW-Wishlist/static/js/2.93a96bab.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.f35c551d.js",
+    "static/js/runtime-main.8afb9fce.js",
     "static/js/2.93a96bab.chunk.js",
     "static/css/main.b9709a22.chunk.css",
-    "static/js/main.2d0adda6.chunk.js"
+    "static/js/main.16bb5896.chunk.js"
   ]
 }
