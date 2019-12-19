@@ -1,0 +1,6 @@
+{
+    "attackLevel"   : [0, 3, 5, 7, 9],
+    "affinityLevel" : [0, 2, 4, 6, 8],
+    "healthLevel"   : [0, 3, 5],
+    "elementLevel"  : [0, 1, 3, 5, 7]
+}
