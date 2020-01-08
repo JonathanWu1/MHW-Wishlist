@@ -42,7 +42,6 @@ export default class InputRow extends Component {
         }
     }
     handleSubaugmentsChange(event) {
-        // do something with event.target.checked
         this.setState(
             {
                 includeSubaugments : event.target.checked
@@ -50,11 +49,17 @@ export default class InputRow extends Component {
         ) 
     }
     
-    saveWeapon(){      
+    /*
+    Saves the weapon data to weaponDataList when the save button is clicked and the input fields are reset
+    */
+    saveWeapon(){    
         if(this.state.slotsUsed <= this.state.totalSlots){
             var weaponDataList = eval(localStorage.getItem('weaponDataList'))
             if(weaponDataList === null){
                 weaponDataList = [this.state]
+                localStorage.setItem('weaponDataList', JSON.stringify(weaponDataList))
+                this.props.refreshWeaponData(weaponDataList)
+                this.clearWeapon()
             }
             else if(this.props.rowIndex >= 0){
                 this.setState({
@@ -65,7 +70,6 @@ export default class InputRow extends Component {
                     this.props.refreshWeaponData(weaponDataList)
                     this.clearWeapon()
                 })
-                
             }
             else{
                 weaponDataList.push(this.state)
@@ -80,6 +84,10 @@ export default class InputRow extends Component {
             })
         }
     }
+
+    /*
+    Resets all input fields
+    */
     clearWeapon(){
         this.setState(
             {
@@ -104,6 +112,12 @@ export default class InputRow extends Component {
             }
         ) 
     }
+
+
+    /*
+    Whenever augments are changed the state value is updated.js
+    the slotsUsed variable must be less than or equal to the totalSlots variable or the weapon cannot be saved
+    */
     handleAugmentsChange(event){
         var stateObject = {}
         let slotsUsed = 0
@@ -115,7 +129,6 @@ export default class InputRow extends Component {
             totalSlots = this.extraSlotPerLevelRarity[this.state.weaponRarity][event.target.value]
         }
         else if(event.target.id === 'weaponName'){
-            console.log(event.target.value)
             stateObject['weaponName'] = event.target.value
         }
         else{
@@ -240,7 +253,7 @@ export default class InputRow extends Component {
                         <td></td>
                         <td></td>
                         <td  id = 'currentStatsLabel'>
-                            <label>Current Stats: </label>
+                            <label>Current Augments: </label>
                         </td>
                         <td> 
                             <select className ='browser-default custom-select augmentsSelect' id = 'extraSlotsLevelOld'
